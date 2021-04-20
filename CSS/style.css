@@ -1,0 +1,265 @@
+/* general styles */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: #141414;
+}
+
+.dark_bg {
+    color: #FFFFFF;
+}
+
+.blue_but {
+    background-color: #266EFD;
+    color: #FFFFFF;
+    border: 1px solid #707070;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.blue_but:hover {
+    -webkit-box-shadow: 4px 5px 15px 7px rgba(38,110,253,0.64); 
+    box-shadow: 4px 5px 15px 7px rgba(38,110,253,0.64);
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+
+/* header and top section */
+
+#header {
+    height: 540px;
+    background-image: url('../images/hero-image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 40px;
+}
+
+header {
+    max-width: 1640px;
+    height: 59px;
+    margin: 0px auto 50px auto;
+}
+
+header p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    float: left;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header nav li {
+    float: right;
+    padding: 15px;
+    cursor: pointer;
+}
+
+#login_but {
+    float: right;
+    width: 102px;
+    height: 52px;
+    margin-left: 20px;
+}
+
+#juniors_make {
+    max-width: 1640px;
+    margin: 50px auto 100px;
+}
+
+#post_offer_but {
+    width: 220px;
+    height: 52px;
+    margin-top: 20px;
+}
+
+
+/* newest job offers section */
+
+#job_offers {
+    max-width: 1640px;
+    margin: 50px auto;
+    padding: 40px;
+}
+
+#job_offers h1 {
+    float: left;
+}
+
+#view_jobs_but {
+    color: #276FFB;
+    font-size: 18px;
+    font-weight: bold;
+    float: right;
+    border: none;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+#article_container {
+    margin-top: 70px;
+}
+
+article {
+    position: relative;
+    display: inline-block;
+    max-width: 430px;
+    height: 217px;
+    color: #7A7A7A;
+    vertical-align: middle;
+    margin: 20px 0px;
+}
+
+article h2 {
+    color: #276FFB;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+article h3 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.company_name {
+    color: #141414;
+    margin-right: 20px;
+}
+
+article div {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+article p {
+    width: 454px;
+    height: 127px;
+    margin-top: 20px;
+}
+
+article button {
+    width: 46px;
+    height: 43px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.separation_line {
+    height: 217px;
+    width: 2px;
+    background-color: #B9B9B9;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+
+/* featured companies */
+
+#featured_companies {
+    max-width: 1640px;
+    margin: 50px auto;
+    padding: 25px;
+}
+
+#featured_companies h1 {
+    margin: 0px 0px 20px 15px;
+}
+
+figure {
+    display: inline-block;
+    margin: 15px;
+    text-align: center;
+    width: 160px;
+}
+
+figure img {
+    background-image: url('../images/icon-briefcase.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid #B9B9B9;
+    border-radius: 45px;
+    padding: 45px;
+}
+
+figcaption {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+/* sign up section */
+
+#sign_up {
+    background-image: url('../images/Newsletter-image.png');
+    background-repeat: no-repeat;
+    background-position: right; 
+    background-color: #141414;
+    height: 325px;
+    max-width: 1640px;
+    border: 1px solid #707070;
+    border-radius: 5px;
+    margin: 70px auto;
+    padding: 50px;
+}
+
+form {
+    margin-top: 20px;
+    height: 45px;
+}
+
+form input {
+    height: 45px;
+    width: 350px;
+    border: 1px solid #707070;
+    border-radius: 5px;
+    color: #7A7A7A;
+    font-size: 18px;
+    padding: 12px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+form button {
+    height: 45px;
+    width: 160px;
+    vertical-align: middle;
+}
+
+
+/* bottom nav */
+
+footer nav {
+    margin: 50px auto;
+    max-width: 1000px;
+}
+
+footer nav ul {
+    list-style-type: none;
+    font-size: 18px;
+}
+
+footer nav li {
+    display: inline;
+    padding: 15px;
+    cursor: pointer;
+}
+
